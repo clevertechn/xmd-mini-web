@@ -216,6 +216,152 @@ export const groupFeatures = [
   { name: 'Anti-Bot', description: 'Detect and remove other bots from groups', enabled: true },
 ];
 
+export interface UseCase {
+  icon: string;
+  title: string;
+  description: string;
+  benefits: string[];
+}
+
+export const useCases: UseCase[] = [
+  {
+    icon: 'Headphones',
+    title: 'Customer Support',
+    description: 'Automate responses to common customer questions, route complex issues to human agents, and provide 24/7 support without hiring additional staff.',
+    benefits: ['Auto-reply to FAQs', 'Smart ticket routing', '24/7 availability', 'Reduce response time by 80%'],
+  },
+  {
+    icon: 'Megaphone',
+    title: 'Marketing & Promotions',
+    description: 'Broadcast promotional messages, product launches, and special offers to your entire customer base with scheduled campaigns and delivery tracking.',
+    benefits: ['Bulk broadcast campaigns', 'Scheduled messaging', 'Delivery receipts', 'Customer segmentation'],
+  },
+  {
+    icon: 'ShoppingCart',
+    title: 'Order Management',
+    description: 'Let customers place orders, track deliveries, and receive order confirmations directly through WhatsApp — no app or website required.',
+    benefits: ['Automated order taking', 'Real-time order tracking', 'Payment confirmations', 'Receipt generation'],
+  },
+  {
+    icon: 'CalendarClock',
+    title: 'Appointments & Bookings',
+    description: 'Allow clients to book, reschedule, and cancel appointments through WhatsApp. Send automatic reminders to reduce no-shows.',
+    benefits: ['Automated booking flow', 'Reminder notifications', 'Calendar sync', 'Reduce no-shows by 60%'],
+  },
+  {
+    icon: 'GraduationCap',
+    title: 'Education & Training',
+    description: 'Deliver course materials, quizzes, and progress updates to students via WhatsApp groups. Perfect for online schools and training programs.',
+    benefits: ['Course content delivery', 'Automated quizzes', 'Progress tracking', 'Student engagement analytics'],
+  },
+  {
+    icon: 'Building2',
+    title: 'Internal Operations',
+    description: 'Streamline internal communication, send company announcements, and manage team coordination through dedicated WhatsApp groups.',
+    benefits: ['Team announcements', 'Shift scheduling', 'Report collection', 'Internal notifications'],
+  },
+];
+
+export interface Testimonial {
+  name: string;
+  role: string;
+  company: string;
+  content: string;
+  rating: number;
+  avatar: string;
+}
+
+export const testimonials: Testimonial[] = [
+  {
+    name: 'Amina Hassan',
+    role: 'Owner',
+    company: 'Kanga Boutique, Dar es Salaam',
+    content: 'Black Hat XMD imebadilisha biashara yangu. Wateja wengi sasa wanaagiza moja kwa moja kupitia WhatsApp. Nimongeza mauzo kwa 40% ndani ya miezi mitatu.',
+    rating: 5,
+    avatar: 'AH',
+  },
+  {
+    name: 'Joseph Mwakyusa',
+    role: 'Marketing Manager',
+    company: 'TechHub Tanzania',
+    content: 'Tulianza kutumia XMD kwa matangazo ya biashara. Sasa tunafikia wateja 5,000+ kwa pindi moja. Mfumo wa coin economy umefanya iwe rahisi kuongeza bots zetu.',
+    rating: 5,
+    avatar: 'JM',
+  },
+  {
+    name: 'Fatma Said',
+    role: 'Founder',
+    company: 'QuickFix Services, Arusha',
+    content: 'Wateja wetu wanapenda kushughulikia kila kitu kupitia WhatsApp. XMD inatusaidia kupokea maombi, kuthibitisha, na kutuma ukumbusho. Hakuna tena wateja waliopotea.',
+    rating: 5,
+    avatar: 'FS',
+  },
+  {
+    name: 'David Kimaro',
+    role: 'Director',
+    company: 'Kili Tours & Safaris',
+    content: 'Tunatumia XMD kwa safari bookings. Wateja kutoka nje wanapata majibu haraka, hata wakati timu yetu iko shambani. Hii imesaidia sana kushinda wateja wapya.',
+    rating: 5,
+    avatar: 'DK',
+  },
+  {
+    name: 'Grace Mushi',
+    role: 'CEO',
+    company: 'Grace Beauty Spa, Mwanza',
+    content: 'System ya miadi inafanya kazi vizuri sana. Wateza wanajibitisha wenyewe, na ukumbusho unawasili moja kwa moja. Idadi ya wateza wasiojitokeza imepungua sana.',
+    rating: 5,
+    avatar: 'GM',
+  },
+  {
+    name: 'Ibrahim Omar',
+    role: 'Operations Lead',
+    company: 'Zanzibar Fresh Foods',
+    content: 'Tunatumia XMD kupokea order za bidhaa kutoka kwa maduka 30+. Kila order inarekodiwa na kuthibitishwa moja kwa moja. Mfumo huu ni neema kwa biashara yetu.',
+    rating: 5,
+    avatar: 'IO',
+  },
+];
+
+export interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+export const faqs: FAQItem[] = [
+  {
+    question: 'Je, Black Hat XMD inafanya kazi na WhatsApp Business?',
+    answer: 'Ndiyo, XMD inafanya kazi na akaunti za WhatsApp kawaida na WhatsApp Business. Unaweza kuunganisha akaunti yako yoyote na bot itafanya kazi mara moja.',
+  },
+  {
+    question: 'Ni muda gani inachukua kuansha bot yangu?',
+    answer: 'Baada ya kulipia mpango wako, unaweza kuansha bot yako ndani ya dakika chache. Unahitaji tu kuskan QR code kutoka WhatsApp yako na bot itaanza kufanya kazi mara moja.',
+  },
+  {
+    question: 'Je, ninaweza kuwa na bots zaidi ya moja?',
+    answer: 'Ndiyo. Kila mpango unakuja na idadi fulani ya bots (Starter: 1, Pro: 3, Business: 10). Unaweza kuongeza bots zaidi kwa kutumia coins unazopata kupitia referrals au kununua coins ziada.',
+  },
+  {
+    question: 'Je, malipo yanafanywaje?',
+    answer: 'Tunatumia ClickPesa, mfumo wa malipo wa simu nchini Tanzania. Unaweza kulipa kupitia M-Pesa, Tigo Pesa, Airtel Money, au Halopesa. Malipo ni ya kila mwezi na unaweza kughairi wakati wowote.',
+  },
+  {
+    question: 'Je, bot inaweza kufanya kazi 24/7?',
+    answer: 'Ndiyo, bot inafanya kazi masaa 24 ya siku mara kwa mara. Inaendeshwa kwenye seva zetu zenye uhakika, hivyo hupotezi wateja hata wakati unalala.',
+  },
+  {
+    question: 'Je, data yangu ni salama?',
+    answer: 'Uhakika. Session zako zimefichwawa kwa encryption, na tunatumia CSRF protection na admin audit logging. Hatupati neno wala data ya wateja wako kwa mtu yeyote.',
+  },
+  {
+    question: 'Je, ninaweza kukusisha bot na mifumo mingine?',
+    answer: 'Ndiyo, XMD ina API na webhook support ambayo inakuwezesha kuunganisha na CRM, ERP, au mfumo wowote wa biashara. Timu yetu inaweza kukusaidia kwenye ushirikiano huo.',
+  },
+  {
+    question: 'Je, kuna msaada kama napata shida?',
+    answer: 'Ndiyo. Wateja wa Starter wanapata community support, Pro wanapata priority support, na Business wanapata dedicated support na mshauri wa kibinafsi.',
+  },
+];
+
 export const socialLinks = {
   github: 'https://github.com/clevertechn/black-hat-xmd',
   instagram: 'https://instagram.com/clevertechn',

@@ -4,10 +4,11 @@ import { socialLinks } from '@/data';
 
 const navLinks = [
   { label: 'Features', href: '#features' },
+  { label: 'Solutions', href: '#use-cases' },
   { label: 'Commands', href: '#commands' },
-  { label: 'Group Tools', href: '#group-tools' },
   { label: 'Pricing', href: '#pricing' },
-  { label: 'Dashboard', href: '#dashboard' },
+  { label: 'Reviews', href: '#testimonials' },
+  { label: 'FAQ', href: '#faq' },
 ];
 
 export default function Navbar() {

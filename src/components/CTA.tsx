@@ -19,7 +19,7 @@ export default function CTA() {
             </h2>
             <p className="text-dark-300 text-lg max-w-xl mx-auto mb-8">
               Join the Clever Tech Nexus community. Get started in minutes with
-              200+ commands, AI integration, and full group management.
+              290+ commands, AI integration, and full group management.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

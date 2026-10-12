@@ -73,7 +73,7 @@ export default function Pricing() {
 
         <div className="text-center mt-10">
           <p className="text-sm text-dark-400">
-            All plans include 200+ commands, group management tools, and web panel access.
+            All plans include 290+ commands, group management tools, and web panel access.
             Payments processed securely via ClickPesa hosted checkout.
           </p>
         </div>

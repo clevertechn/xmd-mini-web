@@ -31,7 +31,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-dark-300 mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in-up" style={{ animationDelay: '0.2s', opacity: 0 }}>
-              Deploy powerful WhatsApp bots with 200+ commands across 21 categories.
+              Deploy powerful WhatsApp bots with 290+ commands across 20 categories.
               AI chatbot, media tools, group management, coin economy, and multi-user
               deployment — all from one dashboard.
             </p>
@@ -88,10 +88,10 @@ export default function Hero() {
                   <span className="text-accent-400">✓</span> Session authenticated
                 </div>
                 <div className="text-dark-300">
-                  <span className="text-accent-400">➜</span> Loading 200+ commands...
+                  <span className="text-accent-400">➜</span> Loading 290+ commands...
                 </div>
                 <div className="text-primary-400">
-                  <span className="text-accent-400">✓</span> 21 command categories loaded
+                  <span className="text-accent-400">✓</span> 20 command categories loaded
                 </div>
                 <div className="text-dark-300">
                   <span className="text-accent-400">➜</span> <span className="text-white">.menu</span>

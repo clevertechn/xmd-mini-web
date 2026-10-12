@@ -2,6 +2,7 @@ import { useState } from 'react';
 import {
   Shield, BrainCircuit, Film, Wrench, Gamepad2, RefreshCw,
   Sparkles, Trophy, Palette, BookOpen, Clapperboard, Search,
+  Command, Type, Video, Calculator, Crown, StickyNote, Heart,
 } from 'lucide-react';
 import { commandCategories } from '@/data';
 
@@ -18,6 +19,13 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   BookOpen,
   Clapperboard,
   Search,
+  Command,
+  Type,
+  Video,
+  Calculator,
+  Crown,
+  StickyNote,
+  Heart,
 };
 
 export default function Commands() {
@@ -32,9 +40,9 @@ export default function Commands() {
             Command Library
           </span>
           <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            <span className="text-gradient-gold">200+ Commands</span>
+            <span className="text-gradient-gold">290+ Commands</span>
             <br />
-            Across 21 Categories
+            Across 20 Categories
           </h2>
           <p className="text-dark-300 text-lg">
             From AI to media downloads, group admin tools to fun games —
